@@ -1,0 +1,167 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.background {
+    background: black;
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+.nav-list {
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 180px;
+    border-radius: 50px;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover {
+    color: grey;
+}
+
+.rightnav {
+    width: 30%;
+    text-align: right;
+}
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+
+
+.btn {
+    padding: 8px 20px;
+    margin: 7px 0;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-sm {
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+
+
+.popo {
+    
+    top: 215px;
+    position: absolute;
+    left: 100px;
+}
+
+
+
+
+.lak {
+    border-radius: 8px;
+    height: 30px;
+    font-size: 20px;
+    width: 500px;
+}
+
+.lakbtn {
+    width: 200px;
+    height: 40px;
+    border: 8px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 350px;
+    left: 150px;
+}
+
+.aha {
+    width: 350px;
+    height: 500px;
+    border-radius: 30px;
+    border-width: 10px;
+    border-color: black;
+}
+
+.legjenda {
+    font-weight: bold;
+}
+
+.lakbtn1 {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.lakbtn:hover {
+    background-color: grey;
+}
+
+.lakbtn:hover .lakbtn1{
+    background-color: grey;
+}
+
+
+.lak1 {
+    width: 100px;
+    border-radius: 8px;
+    height: 20px;
+    font-size: 20px;
+}
+
+
+.jojo {
+    position: absolute;
+    left: 800px;
+    top: 215px;
+}
+
+.header {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+
+.pallermo {
+    width: 1600px;
+    height:5px ;
+    background-color:black;
+    
+}

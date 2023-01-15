@@ -1,0 +1,53 @@
+body{
+    background: rgb(204, 198, 198);
+}
+#container{
+    background: white;
+    border: solid 1px black;
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 700px;
+    margin-top: 200px;
+}
+.form{
+    text-align: center;
+}
+input{
+    margin-left: 70px;
+    width: 250px;
+    height: 10px;
+    
+}
+#fname{
+    display: block;
+    text-align: center;
+    padding-top: 15px;
+}
+#lname{
+    display: block;
+    padding-top: 15px;
+}
+#pass{
+    display: block;
+    padding-top: 15px;
+}
+#email{
+    display: block;
+    padding-top: 15px;
+    
+}
+button{
+    margin-top: 50px;
+    width: 130px;
+    height: 40px;
+    
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}

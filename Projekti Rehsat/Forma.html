@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="forma.css">
+    
+</head>
+<body onload="">
+    <div id="container">
+        <div class="form">
+            <label for="fname">First name:</label>
+            <input class="login" type="text" id="fname" name="fname">
+            <label for="lname">Last name:</label>
+            <input class="login" type="text" id="lname" name="lname">
+            <label for="pass">Password</label>
+            <input class="login" type="password" id="pass" name="pass">
+            <label for="email">Email</label>
+            <input class="login" type="email" id="email" name="email">
+            <button id="submit" class="register"><a href="1.html">Register</a></button>
+     </div>
+    </div>
+    <script>
+         
+        function a(){
+            let inputs = document.getElementsByClassName('login');
+            let count = 0;
+            var input = '';
+            for (let index = 0; index < inputs.length; index++) {
+                const element = inputs[index];
+                console.log(element)
+                if(element.value.length === 0){ 
+                   
+                    input = input + ' Shto diqka ne ' + (element.id) + ' edhe ';
+                    
+                } else {
+                    count++;
+                }
+                
+            }
+
+            if(count < inputs.length)
+                alert(input);
+                
+        }
+
+        document.getElementById('submit').onclick = function($event){
+            a()
+            $event.stopPropagation();
+        }
+    </script>
+</body>
+</html>
